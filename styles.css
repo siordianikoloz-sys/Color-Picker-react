@@ -1,0 +1,42 @@
+.color-picker {
+text-align: center;
+
+}
+
+.color-list {
+display: flex;
+justify-content: center;
+gap: 10px;
+
+}
+
+.color-item {
+width: 50px;
+height: 50px;
+border-radius: 10%;
+cursor: pointer;
+padding:50px;
+border: 2pxsolidtransparent;
+transition: transform 0.2s, border0.2s;
+
+}
+
+.color-item:hover {
+transform: scale(1.1);
+border: 2pxsolid#000;
+
+}
+
+.color-item.focused {
+transform: scale(1.2);
+border: 2pxdashed#000;
+
+}
+
+.color-code {
+position: absolute;
+color: #fff;
+font-size: 20px;
+margin-top: 5px;
+
+}
